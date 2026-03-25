@@ -1,0 +1,515 @@
+2026-03-25 09:51:30 [main] INFO  c.g.c.AchatEnLigneMsApplication - Starting AchatEnLigneMsApplication using Java 21.0.1 with PID 15356 (C:\Users\LBC\IdeaProjects\achat-en-ligne-ms\target\classes started by LBC in C:\Users\LBC\IdeaProjects\achat-en-ligne-ms)
+2026-03-25 09:51:30 [main] DEBUG c.g.c.AchatEnLigneMsApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-25 09:51:30 [main] INFO  c.g.c.AchatEnLigneMsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-25 09:51:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 09:51:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 4 JPA repository interfaces.
+2026-03-25 09:51:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-25 09:51:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-25 09:51:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-25 09:51:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-25 09:51:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3805 ms
+2026-03-25 09:51:34 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-25 09:51:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-25 09:51:34 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-25 09:51:35 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 09:51:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-25 09:51:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ef04613
+2026-03-25 09:51:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-25 09:51:35 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-25 09:51:35 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@400e741) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3be369fc)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@35744f8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6fbcc078)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6c851821) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4c0930c4)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@75c0cd39) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7cf66cf9)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@38f63756) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3d7caf9c)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4e26040f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1782896)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8bde368) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5065bdac)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2e9dcdd3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6e617c0e)
+2026-03-25 09:51:35 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@9a07409) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7455204c)
+2026-03-25 09:51:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 09:51:37 [main] DEBUG org.hibernate.SQL - 
+    alter table achats 
+       add constraint FKhqpos2swqo90w71jndqn47qh3 
+       foreign key (product_ref) 
+       references produits (ref)
+2026-03-25 09:51:37 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table achats 
+       add constraint FKhqpos2swqo90w71jndqn47qh3 
+       foreign key (product_ref) 
+       references produits (ref)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhqpos2swqo90w71jndqn47qh3` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table achats 
+       add constraint FKhqpos2swqo90w71jndqn47qh3 
+       foreign key (product_ref) 
+       references produits (ref)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhqpos2swqo90w71jndqn47qh3` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:446)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:268)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.groupeisi.company.AchatEnLigneMsApplication.main(AchatEnLigneMsApplication.java:12)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhqpos2swqo90w71jndqn47qh3` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 37 common frames omitted
+2026-03-25 09:51:37 [main] DEBUG org.hibernate.SQL - 
+    alter table ventes 
+       add constraint FKhga1nmxg6g9h07flaqo0x2lh0 
+       foreign key (product_ref) 
+       references produits (ref)
+2026-03-25 09:51:37 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table ventes 
+       add constraint FKhga1nmxg6g9h07flaqo0x2lh0 
+       foreign key (product_ref) 
+       references produits (ref)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhga1nmxg6g9h07flaqo0x2lh0` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table ventes 
+       add constraint FKhga1nmxg6g9h07flaqo0x2lh0 
+       foreign key (product_ref) 
+       references produits (ref)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhga1nmxg6g9h07flaqo0x2lh0` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:446)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:268)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.groupeisi.company.AchatEnLigneMsApplication.main(AchatEnLigneMsApplication.java:12)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`achat_en_ligne_db`.`#sql-680c_22`, CONSTRAINT `FKhga1nmxg6g9h07flaqo0x2lh0` FOREIGN KEY (`product_ref`) REFERENCES `produits` (`ref`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 37 common frames omitted
+2026-03-25 09:51:37 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 09:51:38 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25 09:51:38 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-03-25 09:51:39 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-03-25 09:51:40 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@743167c7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d5a4e59, org.springframework.security.web.context.SecurityContextHolderFilter@267093ea, org.springframework.security.web.header.HeaderWriterFilter@54e63f7c, org.springframework.web.filter.CorsFilter@5710f755, org.springframework.security.web.authentication.logout.LogoutFilter@1285ec6, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@59acb725, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d28d525, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e7c3ba2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b78c34b, org.springframework.security.web.session.SessionManagementFilter@1ff584d7, org.springframework.security.web.access.ExceptionTranslationFilter@5c7a699b, org.springframework.security.web.access.intercept.AuthorizationFilter@6affbed1]
+2026-03-25 09:51:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-25 09:51:41 [main] INFO  c.g.c.AchatEnLigneMsApplication - Started AchatEnLigneMsApplication in 11.924 seconds (process running for 20.843)
+2026-03-25 09:51:42 [main] DEBUG org.hibernate.SQL - 
+    select
+        count(*) 
+    from
+        user_accounts ua1_0
+2026-03-25 09:51:42 [main] INFO  c.g.company.config.DataInitializer - === Données déjà présentes, initialisation ignorée ===
+2026-03-25 09:56:24 [http-nio-9090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-25 09:56:24 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-25 09:56:24 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-25 09:56:24 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/produits/3
+2026-03-25 09:56:24 [http-nio-9090-exec-2] DEBUG o.s.s.o.jwt.JwtTimestampValidator - Jwt expired at 2026-03-23T13:16:21Z
+2026-03-25 09:56:24 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Failed to authenticate since the JWT was invalid
+2026-03-25 09:57:10 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits
+2026-03-25 09:57:10 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 09:57:10 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 09:57:10 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits
+2026-03-25 09:57:10 [http-nio-9090-exec-3] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits
+2026-03-25 09:57:10 [http-nio-9090-exec-3] INFO  c.g.company.service.ProduitsService - Récupération de tous les produits
+2026-03-25 09:57:10 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0
+2026-03-25 09:57:23 [http-nio-9090-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits/aa
+2026-03-25 09:57:23 [http-nio-9090-exec-4] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 09:57:23 [http-nio-9090-exec-4] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 09:57:23 [http-nio-9090-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits/aa
+2026-03-25 09:57:23 [http-nio-9090-exec-4] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits/aa
+2026-03-25 09:57:23 [http-nio-9090-exec-4] INFO  c.g.company.service.ProduitsService - Récupération du produit avec la référence : aa
+2026-03-25 09:57:23 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/produits/aa
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/produits/aa
+2026-03-25 09:57:28 [http-nio-9090-exec-7] INFO  c.g.c.controller.ProduitsController - DELETE /api/v1/produits/aa
+2026-03-25 09:57:28 [http-nio-9090-exec-7] INFO  c.g.company.service.ProduitsService - Suppression du produit avec la référence : aa
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        count(*) 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.product_ref,
+        a1_0.id,
+        a1_0.datep,
+        a1_0.quantity,
+        a1_0.user_id 
+    from
+        achats a1_0 
+    where
+        a1_0.product_ref=?
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        v1_0.product_ref,
+        v1_0.id,
+        v1_0.datep,
+        v1_0.quantity,
+        v1_0.user_id 
+    from
+        ventes v1_0 
+    where
+        v1_0.product_ref=?
+2026-03-25 09:57:28 [http-nio-9090-exec-7] INFO  c.g.company.service.ProduitsService - Produit supprimé avec succès, ref : aa
+2026-03-25 09:57:28 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        produits 
+    where
+        ref=?
+2026-03-25 09:58:40 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits/aa
+2026-03-25 09:58:40 [http-nio-9090-exec-6] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 09:58:40 [http-nio-9090-exec-6] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 09:58:40 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits/aa
+2026-03-25 09:58:40 [http-nio-9090-exec-6] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits/aa
+2026-03-25 09:58:40 [http-nio-9090-exec-6] INFO  c.g.company.service.ProduitsService - Récupération du produit avec la référence : aa
+2026-03-25 09:58:40 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 09:58:40 [http-nio-9090-exec-6] ERROR c.g.c.e.GlobalExceptionHandler - Ressource non trouvée : Produit non trouvé avec la référence : aa
+2026-03-25 09:58:45 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits
+2026-03-25 09:58:45 [http-nio-9090-exec-9] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 09:58:45 [http-nio-9090-exec-9] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 09:58:45 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits
+2026-03-25 09:58:45 [http-nio-9090-exec-9] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits
+2026-03-25 09:58:45 [http-nio-9090-exec-9] INFO  c.g.company.service.ProduitsService - Récupération de tous les produits
+2026-03-25 09:58:45 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0
+2026-03-25 10:10:25 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/ventes
+2026-03-25 10:10:25 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:10:25 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:10:25 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/ventes
+2026-03-25 10:10:25 [http-nio-9090-exec-2] INFO  c.g.c.controller.VentesController - GET /api/v1/ventes
+2026-03-25 10:10:25 [http-nio-9090-exec-2] INFO  c.g.company.service.VentesService - Récupération de toutes les ventes
+2026-03-25 10:10:25 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        v1_0.id,
+        v1_0.datep,
+        v1_0.product_ref,
+        v1_0.quantity,
+        v1_0.user_id 
+    from
+        ventes v1_0
+2026-03-25 10:10:32 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-03-25 10:10:32 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:10:32 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:10:32 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-03-25 10:10:32 [http-nio-9090-exec-3] INFO  c.g.c.c.UserAccountController - GET /api/v1/users
+2026-03-25 10:10:32 [http-nio-9090-exec-3] INFO  c.g.c.service.UserAccountService - Récupération de tous les comptes utilisateurs
+2026-03-25 10:10:32 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        ua1_0.id,
+        ua1_0.email,
+        ua1_0.password 
+    from
+        user_accounts ua1_0
+2026-03-25 10:12:12 [http-nio-9090-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/achats
+2026-03-25 10:12:12 [http-nio-9090-exec-8] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:12:12 [http-nio-9090-exec-8] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:12:12 [http-nio-9090-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/achats
+2026-03-25 10:12:12 [http-nio-9090-exec-8] INFO  c.g.company.service.AchatsService - Récupération de tous les achats
+2026-03-25 10:12:12 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.datep,
+        a1_0.product_ref,
+        a1_0.quantity,
+        a1_0.user_id 
+    from
+        achats a1_0
+2026-03-25 10:22:00 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-03-25 10:22:00 [http-nio-9090-exec-9] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:22:00 [http-nio-9090-exec-9] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:22:00 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-03-25 10:22:00 [http-nio-9090-exec-9] INFO  c.g.c.c.UserAccountController - GET /api/v1/users
+2026-03-25 10:22:14 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-03-25 10:22:14 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:22:14 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:22:14 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-03-25 10:22:14 [http-nio-9090-exec-10] INFO  c.g.c.c.UserAccountController - GET /api/v1/users
+2026-03-25 10:22:18 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/users
+2026-03-25 10:22:18 [http-nio-9090-exec-1] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:22:18 [http-nio-9090-exec-1] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:22:18 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/users
+2026-03-25 10:22:19 [http-nio-9090-exec-1] INFO  c.g.c.c.UserAccountController - POST /api/v1/users - email : user1@groupeisi.com
+2026-03-25 10:22:19 [http-nio-9090-exec-1] INFO  c.g.c.service.UserAccountService - Création d'un nouveau compte utilisateur : user1@groupeisi.com
+2026-03-25 10:22:19 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        ua1_0.id 
+    from
+        user_accounts ua1_0 
+    where
+        ua1_0.email=? 
+    limit
+        ?
+2026-03-25 10:22:19 [http-nio-9090-exec-1] ERROR c.g.c.e.GlobalExceptionHandler - Ressource dupliquée : Un compte avec cet email existe déjà : user1@groupeisi.com
+2026-03-25 10:23:31 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2026-03-25 10:23:31 [http-nio-9090-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2026-03-25 10:23:31 [http-nio-9090-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2026-03-25 10:23:31 [http-nio-9090-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2026-03-25 10:23:31 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2026-03-25 10:23:31 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2026-03-25 10:23:31 [http-nio-9090-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-25 10:23:31 [http-nio-9090-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-03-25 10:23:31 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2026-03-25 10:23:31 [http-nio-9090-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2026-03-25 10:23:31 [http-nio-9090-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-03-25 10:23:31 [http-nio-9090-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:31 [http-nio-9090-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-03-25 10:23:32 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2026-03-25 10:23:32 [http-nio-9090-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:32 [http-nio-9090-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2026-03-25 10:23:32 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2026-03-25 10:23:32 [http-nio-9090-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:32 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2026-03-25 10:23:32 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2026-03-25 10:23:32 [http-nio-9090-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:23:32 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2026-03-25 10:23:33 [http-nio-9090-exec-1] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1004 ms
+2026-03-25 10:25:31 [http-nio-9090-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits
+2026-03-25 10:25:31 [http-nio-9090-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/users
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@2723944b, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/users
+2026-03-25 10:27:18 [http-nio-9090-exec-10] INFO  c.g.c.c.UserAccountController - POST /api/v1/users - email : user@groupeisi.com
+2026-03-25 10:27:18 [http-nio-9090-exec-10] INFO  c.g.c.service.UserAccountService - Création d'un nouveau compte utilisateur : user@groupeisi.com
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        ua1_0.id 
+    from
+        user_accounts ua1_0 
+    where
+        ua1_0.email=? 
+    limit
+        ?
+2026-03-25 10:27:18 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        user_accounts
+        (email, password) 
+    values
+        (?, ?)
+2026-03-25 10:27:18 [http-nio-9090-exec-10] INFO  c.g.c.service.UserAccountService - Compte utilisateur créé avec succès, id : 4
+2026-03-25 10:29:25 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/ventes
+2026-03-25 10:29:25 [http-nio-9090-exec-3] DEBUG o.s.s.o.jwt.JwtTimestampValidator - Jwt expired at 2026-03-25T10:26:36Z
+2026-03-25 10:29:25 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Failed to authenticate since the JWT was invalid
+2026-03-25 10:29:33 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/ventes
+2026-03-25 10:29:33 [http-nio-9090-exec-2] DEBUG o.s.s.o.jwt.JwtTimestampValidator - Jwt expired at 2026-03-25T10:26:36Z
+2026-03-25 10:29:33 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Failed to authenticate since the JWT was invalid
+2026-03-25 10:29:56 [http-nio-9090-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/ventes
+2026-03-25 10:29:56 [http-nio-9090-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-25 10:30:41 [http-nio-9090-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/ventes
+2026-03-25 10:30:41 [http-nio-9090-exec-5] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:30:41 [http-nio-9090-exec-5] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:30:41 [http-nio-9090-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/ventes
+2026-03-25 10:30:41 [http-nio-9090-exec-5] INFO  c.g.c.controller.VentesController - GET /api/v1/ventes
+2026-03-25 10:31:43 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits
+2026-03-25 10:31:43 [http-nio-9090-exec-6] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:31:43 [http-nio-9090-exec-6] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:31:43 [http-nio-9090-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits
+2026-03-25 10:31:43 [http-nio-9090-exec-6] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits
+2026-03-25 10:31:51 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits/aa
+2026-03-25 10:31:51 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:31:51 [http-nio-9090-exec-10] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:31:51 [http-nio-9090-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits/aa
+2026-03-25 10:31:51 [http-nio-9090-exec-10] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits/aa
+2026-03-25 10:31:51 [http-nio-9090-exec-10] INFO  c.g.company.service.ProduitsService - Récupération du produit avec la référence : aa
+2026-03-25 10:31:51 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 10:31:51 [http-nio-9090-exec-10] ERROR c.g.c.e.GlobalExceptionHandler - Ressource non trouvée : Produit non trouvé avec la référence : aa
+2026-03-25 10:32:31 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/produits
+2026-03-25 10:32:31 [http-nio-9090-exec-1] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:32:31 [http-nio-9090-exec-1] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:32:31 [http-nio-9090-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/produits
+2026-03-25 10:32:31 [http-nio-9090-exec-1] INFO  c.g.c.controller.ProduitsController - GET /api/v1/produits
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/v1/produits/PROD-001
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/v1/produits/PROD-001
+2026-03-25 10:33:18 [http-nio-9090-exec-7] INFO  c.g.c.controller.ProduitsController - PUT /api/v1/produits/PROD-001
+2026-03-25 10:33:18 [http-nio-9090-exec-7] INFO  c.g.company.service.ProduitsService - Mise à jour du produit avec la référence : PROD-001
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.ref,
+        p1_0.name,
+        p1_0.stock,
+        p1_0.user_id 
+    from
+        produits p1_0 
+    where
+        p1_0.ref=?
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        ua1_0.id,
+        ua1_0.email,
+        ua1_0.password 
+    from
+        user_accounts ua1_0 
+    where
+        ua1_0.id=?
+2026-03-25 10:33:18 [http-nio-9090-exec-7] INFO  c.g.company.service.ProduitsService - Produit mis à jour avec succès, ref : PROD-001
+2026-03-25 10:33:18 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - 
+    update
+        produits 
+    set
+        name=?,
+        stock=?,
+        user_id=? 
+    where
+        ref=?
+2026-03-25 10:34:15 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/achats
+2026-03-25 10:34:15 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:34:15 [http-nio-9090-exec-3] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:34:15 [http-nio-9090-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/achats
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/achats/1
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@36008093, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_email, SCOPE_profile]]
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/achats/1
+2026-03-25 10:34:26 [http-nio-9090-exec-2] INFO  c.g.company.service.AchatsService - Suppression de l'achat avec l'id : 1
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        count(*) 
+    from
+        achats a1_0 
+    where
+        a1_0.id=?
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.datep,
+        a1_0.product_ref,
+        a1_0.quantity,
+        a1_0.user_id 
+    from
+        achats a1_0 
+    where
+        a1_0.id=?
+2026-03-25 10:34:26 [http-nio-9090-exec-2] INFO  c.g.company.service.AchatsService - Achat supprimé avec succès, id : 1
+2026-03-25 10:34:26 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        achats 
+    where
+        id=?
